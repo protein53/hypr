@@ -1,0 +1,30 @@
+-- Custom Omarchy key bindings
+-- Intended for those with very short memory and could not
+-- remember unless they make sense. Many combinations are
+-- already being used by nvim or tmux. So, we use Super as
+-- leader as this is never used, but make it similar in
+-- behavior as nvim/tmux
+--
+-- Rule 1: Actions that are done most often should use Super only
+-- Opening terminal
+-- Searching/Executing Apps
+-- Navigating to different open windows
+-- Resizing windows
+-- running an oftenly used omarchy plugin
+--
+--
+-- Rule 2: Apps that are used more often should use Super-Ctrl
+--         This leader is still easy to type without looking at 
+--         keyboard
+--
+--
+-- Rule 2: Actions that are destructive like kill, exit, logout
+--         shutdown should have a leader that is harder to reach
+--         like Super-Shift
+--
+--
+-- Rule 3: Actions that will need repetition or selection should
+--         be accomplished by submap feature of hyprland. These
+--         are for actions like resizing of windows, moving windows,
+--         selecting windows to be later placed to another tag or
+--         later deleted.
